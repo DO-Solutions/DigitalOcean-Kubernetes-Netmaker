@@ -1,12 +1,41 @@
-# Setting up DOKS cross-cluster connectivity using Netmaker, Static Routes Operator, NodePorts & ExternalDNS
+# DigitalOcean-Kubernetes-Netmaker
+<!-- <div id="top"></div> -->
+<!--
+*** Thanks for checking out the Best-README-Template. If you have a suggestion
+*** that would make this better, please fork the repo and create a pull request
+*** or simply open an issue with the tag "enhancement".
+*** Don't forget to give the project a star!
+*** Thanks again! Now go create something AMAZING! :D
+-->
 
-## Overview
 
-**This blueprint is a draft**
-- The [blueprint](https://github.com/digitalocean/container-blueprints/tree/main/DOKS-Egress-Gateway) this is based on includes many validation and troubleshooting steps that are incredibly useful, these have been stripped for this first iteration.
-- There is a mix of imperative and declarative examples given, this needs to be updated.
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <a href="https://digitalocean.com/">
+    <img src="./assets/DO_Logo-Blue.png" alt="Logo" >
+  </a>
 
-[Netmaker](https://www.netmaker.org/) is a platform for creating fast and secure virtual networks with WireGuard.
+<h3 align="center">DigitalOcean | Kubernetes (DOKS) and Netmaker</h3>
+
+  <p align="center">
+    DigitalOcean Kubernetes (DOKS) is a managed Kubernetes service that lets you deploy Kubernetes clusters without the complexities of handling the control plane and containerized infrastructure.
+    <br>[Netmaker](https://www.netmaker.org/) is a platform for creating fast and secure virtual networks with WireGuard.</b>
+    <br />
+    <a href="https://docs.digitalocean.com/tutorials/kubernetes/"><strong>Explore more DOKS tutorials»</strong></a>
+    <br />
+    <a href="https://www.digitalocean.com/product-tours/kubernetes"><strong>Quick DOKS tour»</strong></a>
+  
+  </p>
+</div>
+
+# Getting Started
+
+
+## Architecture diagram
+![architecture](./assets/doks-netmaker-architecture.png)
+
+## Introduction
 
 This blueprint will teach you to:
 
@@ -19,6 +48,13 @@ This blueprint will teach you to:
 This blueprint is heavily based on:
 - [Create Internal Load Balancer to Access DigitalOcean Kubernetes Services](https://docs.digitalocean.com/tutorials/internal-lb/)
 - [Setting up a DOKS Egress Gateway using Crossplane and Static Routes Operator](https://github.com/digitalocean/container-blueprints/tree/main/DOKS-Egress-Gateway)
+
+
+## Prerequisites
+
+1. A DigitalOcean account ([Log in](https://cloud.digitalocean.com/login))
+2. A Cloudflare account
+3. doctl CLI([tutorial](https://docs.digitalocean.com/reference/doctl/how-to/install/))
 
 ## Step 1 - Deploy a Netmaker DigitalOcean Droplet
 
@@ -346,3 +382,21 @@ Additional resources:
 - [DigitalOcean Droplets as NAT Gateways](https://docs.digitalocean.com/products/networking/vpc/how-to/configure-droplet-as-gateway/) tutorial.
 - [Create Internal Load Balancer to Access DigitalOcean Kubernetes Services](https://docs.digitalocean.com/tutorials/internal-lb/)
 - [Setting up a DOKS Egress Gateway using Crossplane and Static Routes Operator](https://github.com/digitalocean/container-blueprints/tree/main/DOKS-Egress-Gateway)
+
+
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+
+<!-- USAGE EXAMPLES -->
+
+
+
+<!-- CONTACT -->
+# Contact
+
+Jack Pearce, Solutions Engineer - jpearce@digitalocean.com
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
