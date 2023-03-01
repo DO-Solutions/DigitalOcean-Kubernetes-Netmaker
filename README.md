@@ -20,7 +20,7 @@
 
   <p align="center">
     DigitalOcean Kubernetes (DOKS) is a managed Kubernetes service that lets you deploy Kubernetes clusters without the complexities of handling the control plane and containerized infrastructure.
-    <br>[Netmaker](https://www.netmaker.org/) is a platform for creating fast and secure virtual networks with WireGuard.</b>
+    <br><a href="https://www.netmaker.org/"></a>Netmaker is a platform for creating fast and secure virtual networks with WireGuard.</b>
     <br />
     <a href="https://docs.digitalocean.com/tutorials/kubernetes/"><strong>Explore more DOKS tutorials»</strong></a>
     <br />
